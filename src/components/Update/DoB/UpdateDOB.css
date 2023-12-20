@@ -1,0 +1,62 @@
+.updateAge{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.updateAge .updateAge-cont{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.updateAge .updateAge-cont form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(251,216,0,255);
+    padding: 1rem;
+    border-radius: 12px;
+    row-gap: 1rem;
+}
+.updateAge .updateAge-cont form label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.updateAge .updateAge-cont form .dob{
+    width: 100px;
+    height: 30px;
+    padding: 0.5rem 0.2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    width: 180px;
+    padding: 1rem;
+}
+.updateAge .updateAge-cont form button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(5, 154, 5);
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width : 800px) {
+    .updateAge .updateAge-cont form{
+        width: 60%;
+    }
+}
+@media screen and (max-width : 630px) {
+    .updateAge .updateAge-cont form{
+        width: 80%;
+    }
+}
+@media screen and (max-width : 460px) {
+    .updateAge .updateAge-cont form{
+        width: 100%;
+    }
+}

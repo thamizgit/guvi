@@ -1,0 +1,67 @@
+.profile{
+    width: 40%;
+    margin: 10rem auto;
+    padding: 1rem;
+    background-color: rgba(251,216,0,255);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: space-between;
+}
+.profile .profile-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.profile .profile-name p{
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 12px;
+    margin: 0 1rem;
+    align-self: self-start;
+    min-width: 15rem;
+    text-align: center;
+}
+.profile button{
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(240, 16, 16);
+    color:white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+@media screen and (max-width:1180px) {
+    .profile{
+        width: 50%;
+    }
+}
+@media screen and (max-width:850px) {
+    .profile{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:620px) {
+    .profile{
+        width: 90%;
+    }
+    .profile .profile-name h2{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:460px) {
+    .profile{
+        width: 95%;
+    }
+    .profile .profile-name h2{
+        font-size: 1.2rem;
+    }
+    .profile .profile-name p{
+        min-width: 12rem;
+    }
+}
